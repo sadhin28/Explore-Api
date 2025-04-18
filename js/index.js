@@ -7,7 +7,7 @@ function todos(){
    
 function displayTodos(data){
       const ul =document.getElementById('users-list')
-
+      
    for(const user of data){
      const li=document.createElement('li');
      li.innerHTML=user.name;
