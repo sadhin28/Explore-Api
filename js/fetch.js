@@ -15,3 +15,5 @@ const loadComent = async()=>{
       console.error('Data load error')
    }
 }
+ 
+

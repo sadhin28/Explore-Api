@@ -9,3 +9,15 @@ const myLoader = ( )=>{
         }
     })
 }
+
+
+const myTimeout = setTimeout(myGreeting, 5000);
+
+function myGreeting() {
+ console.log('Good Night')
+ console.log('Good Night')
+}
+
+function myStopFunction() {
+  clearTimeout(myTimeout);
+}
