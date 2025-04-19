@@ -4,6 +4,7 @@ function post(){
     .then(data => postData(data))
 }
 
+
 function postData(data){
     const ul = document.getElementById('ul')
     const paragraph = document.getElementById('posts');
